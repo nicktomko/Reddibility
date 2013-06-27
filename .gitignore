@@ -214,6 +214,3 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-# Python Files that have sql password
-getGlobalData.py
-getQAData.py
