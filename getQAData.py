@@ -5,7 +5,7 @@ import pprint
          
 def getQAData(author_name):
     #Connect to database       
-    mysql_cn=MySQLdb.connect("localhost","root","awsmysql","redditdata")
+    mysql_cn=MySQLdb.connect("localhost","reddibility","awsmysql","redditdata")
     
     query_text =  "select QUESTION, ANSWER from QADATATOPVAR where AUTHOR = '%s' ORDER BY SCORE" %(author_name)
             
