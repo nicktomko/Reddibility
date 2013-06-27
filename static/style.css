@@ -1,0 +1,335 @@
+
+
+body { 
+       color: #5d665b;
+       margin-top: 5px;
+       font-family: Verdana, Geneva, Arial, sans-serif;
+       font-size: small;
+       line-height: 180%;
+       }
+
+html, body {  height: 100% }
+
+#header {
+          /* background-color: #6699FF; */
+          background-color: #3660c2;
+          height: 40px;
+          font-size: 30px;
+          line-height: 36px;
+          text-align: center;
+          visibility: visible;
+          position: relative;
+          color: black;
+          font-family: 'Helvetica Neue', Arial, Helvetica, 'Nimbus Sans L', sans-serif; 
+          border: 2px solid black;
+          
+          }
+
+#footer {
+          margin-top: 0px;
+          width: 900px;
+          margin-left: auto ;
+          margin-right: auto ;
+          text-align: center;
+          border: 1px solid black;
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+          }
+
+#navebar {
+           color: black;
+           font-size: 9px;
+           line-height: 16px;
+           /*background-color: #CCFFFF;*/
+           background-color: #99CCFF;
+           text-align: center;
+           letter-spacing: 6px;
+           height: 16px;
+           /* width: 500px;*/
+
+           }
+
+#navebar a:link{ 
+                 color:#000;
+                 }
+
+#navebar a:visited{ 
+                    color:#000;
+                    }
+
+#logo {
+        width: 900px;
+        margin-top: 10px ;
+        margin-bottom: 10px ;
+        margin-left: auto ;
+        margin-right: auto ;
+        border: 1px solid black;
+        }
+
+
+.nicebutton {
+              /*background:url(img/button.gif);*/
+              /*display:block;*/
+              color:#555555;
+              font-weight:bold;
+              line-height:25px;
+              text-decoration:none;
+              }
+              
+.nicebutton:hover{
+                   color:#0066CC;
+                   }
+
+
+
+p { 
+    text-indent: 3em;
+    }
+
+h1 h2 h3 h4 {
+              color: #966b72; 
+              font-family: Georgia, "Times New Roman", Times, serif;
+              }
+
+ul {
+     margin: 1em 0 1em 0;
+     }
+
+.tab{ 
+      text-indent: 3em;
+      }
+
+
+.midsection {
+              width: 900px;
+              margin-left: auto ;
+              margin-right: auto ;
+              border: 1px solid black;
+              border-bottom-width: 1px;
+              height: auto;
+              min-height: 100%;
+              }
+
+
+.midcol
+{
+  width: 60%;
+  margin-left: 1%;
+  margin-right: 5%;
+  float: left;
+
+  }
+
+.centeredcol
+{
+  margin-left:auto;
+  margin-right:auto;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+
+.centralcol
+{
+  width: 90%;
+  margin: auto;
+
+
+  }
+
+
+.leftcol {
+           /*  font-size: 10px;
+              font-style: italic; 
+              line-height: 20px;
+              */
+           
+           /*border: 1px solid black;*/
+           position: relative;
+           left: -100px;
+           width: 10px;
+           margin-right: 1px ;
+           text-align: right;
+           float: left;
+
+           }
+
+.rightcol {
+            font-size: 10px;
+            font-style: italic;
+            line-height: 20px;
+            width: 30%;
+            margin-right: 2.5%;
+            margin-top: 10px;
+            float: left;
+
+            }
+
+
+.bar {  width: 100%;
+       content: ".";
+       display: block;
+       height:  0;
+       clear: both;
+       visibility:  hidden;
+       }
+
+
+img.center { 
+             display: block;
+             margin-left: auto;   margin-right: auto; 
+             margin-top: auto;   margin-bottom: auto; 
+             } 
+
+img.centercolumn { 
+                   display: block;
+                   margin-left: auto;   margin-right: auto; 
+                   margin-top: auto;   margin-bottom: auto; 
+                   width:100%;
+                   }
+
+.caption {
+           margin-top: 5px;
+           text-indent: 3em;
+           width: 80%; 
+           margin-left: 10%;
+           margin-right: 10%;
+           font-size: 10px;
+           font-style: italic;
+           line-height: 20px;
+           }
+
+
+a:link { color: #696; text-decoration: none }
+a:visited { color: #699; text-decoration: none }
+a:hover { color: #c93; text-decoration: underline }
+a:active { color: #900; text-decoration: underline; background-color: transparent }  
+
+
+/* Start Form Here */
+/* from: http://www.websiteoptimization.com/speed/tweak/forms/ */y
+
+form {   /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+       font:100% verdana,arial,sans-serif;
+       margin: 0;
+       padding: 0;
+       min-width: 500px;
+       max-width: 600px;
+       width: 560px;
+       }
+
+form label {
+             display: block;  /* block float the labels to left column, set a width */
+             float: left;
+             width: 150px;
+             padding: 0;
+             margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+             text-align: right;
+             }
+
+form input, form textarea {
+                            display: inline; /* inline display must NOT be set or will hide submit buttons in IE 5x mac */
+                            width:auto;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+                            margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
+                                                    label aligns textarea better in IE */
+                            }
+
+form fieldset {
+                /* clear: both; note that this clear causes inputs to break to left in ie5.x mac, commented out */
+                border-color: #000;
+                border-width: 1px;
+                border-style: solid;
+                padding: 10px;        /* padding in fieldset support spotty in IE */
+                margin: 0;
+                }
+
+form fieldset legend {
+                       font-size:1.1em; /* bump up legend font size, not too large or it'll overwrite border on left */
+                       /* be careful with padding, it'll shift the nice offset on top of border  */
+                       }
+
+form fieldset label:first-letter {  /* use first-letter pseudo-class to underline accesskey, note that */
+                                   text-decoration:underline;    /* Firefox 1.07 WIN and Explorer 5.2 Mac don't support first-letter */
+                                   /* pseudo-class on legend elements, but do support it on label elements */
+                                   /* we instead underline first letter on each label element and accesskey */
+                                   /* each input. doing only legends would lessen cognitive load */
+                                   }
+
+form br {
+          clear:left;
+          }
+
+form small {
+             display: block;
+             margin: 0 0 5px 160px; /* instructions/comments left margin set to align w/ right column inputs */
+             padding: 1px 3px;
+             font-size: 88%;
+             }
+
+form.fc {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+          font:100% verdana,arial,sans-serif;
+          margin: 0;
+          padding: 0;
+          min-width: 500px;
+          max-width: 600px;
+          width: 560px; 
+          }
+
+form.fc fieldset {
+                   / * clear: both; note that this clear causes inputs to break to left in ie5.x mac, commented out */
+          border-color: #000;
+          border-width: 1px;
+          border-style: solid;
+          padding: 10px;        /* padding in fieldset support spotty in IE */
+          margin: 0;
+          }
+
+form.fc fieldset legend {
+                          font-size:1.1em; /* bump up legend font size, not too large or it'll overwrite border on left */
+                          /* be careful with padding, it'll shift the nice offset on top of border  */
+                          }
+
+form.fc label { 
+                display: block;  /* block float the labels to left column, set a width */
+                float: left; 
+                width: 150px; 
+                padding: 0; 
+                margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+                text-align: right; 
+                }
+
+form.fc fieldset label:first-letter { /* use first-letter pseudo-class to underline accesskey, note that */
+                                      text-decoration:underline;    /* Firefox 1.07 WIN and Explorer 5.2 Mac don't support first-letter */
+                                      /* pseudo-class on legend elements, but do support it on label elements */
+                                      /* we instead underline first letter on each label element and accesskey */
+                                      /* each input. doing only legends would lessen cognitive load */
+                                      /* opera breaks first letter underlined legens, switched to labels */
+                                      }
+
+form.fc input, form.fc textarea {
+                                  /* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+                                  width:auto;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+                                  margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
+                                                          label aligns textarea better in IE */
+                                  }
+
+form.fc input#reset {
+                      margin-left:0px; /* set margin-left back to zero on reset button (set above) */
+                      }
+
+form.fc textarea { overflow: auto; }
+
+form.fc small {
+                display: block;
+                margin: 0 0 5px 160px; /* instructions/comments left margin set to align w/ right column inputs */
+                padding: 1px 3px;
+                font-size: 88%;
+                }
+
+form.fc .required{font-weight:bold;} /* uses class instead of div, more efficient */
+
+form.fc br {
+             clear:left; /* setting clear on inputs didn't work consistently, so brs added for degrade */
+             }
+

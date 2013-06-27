@@ -1,0 +1,37 @@
+<html>
+
+<head>
+</head>
+
+<script>
+my d3 bs
+</script>
+
+
+<br>
+{% for location in my_locations %}
+<br>
+{{location}}
+
+{% endfor %}
+
+
+
+<form action="/test" method="Post">
+  First name: <input type="text" name="fname" value="Donald"><br>
+  Last name: <input type="text" name="lname" value="Duck"><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+
+<table>
+    <caption>{{reddit_title}}</caption>
+    <tr ><th>Author</th> <th>Question</th> <th>Answer</th> </tr>	
+    <tr ><td>{{reddit_id}} </td> <td>{{qa_df['QUESTION'][0]}}</td> <td>{{qa_df['QUESTION'][0]}}</td> </tr>
+    <tr ><td>{{reddit_id}}</td> <td>{{qa_df['QUESTION'][1]}}</td> <td>{{qa_df['ANSWER'][1]}} </td> </tr>
+    <tr ><td>{{reddit_id}}</td> <td>{{qa_df['QUESTION'][2]}}</td> <td>{{qa_df['ANSWER'][2]}} </td> </tr>
+    <tr ><td>{{reddit_id}}</td> <td>{{qa_df['QUESTION'][3]}}</td> <td>{{qa_df['ANSWER'][3]}} </td> </tr>
+    <tr ><td>{{reddit_id}}</td> <td>{{qa_df['QUESTION'][4]}}</td> <td>{{qa_df['ANSWER'][4]}} </td> </tr>
+</table>
+    
