@@ -7,7 +7,7 @@ def getQAData(author_name):
     #Connect to database       
     mysql_cn=MySQLdb.connect("localhost","reddibility","awsmysql","redditdata")
     
-    query_text =  "select QUESTION, ANSWER from QADATATOPVAR where AUTHOR = '%s' ORDER BY SCORE" %(author_name)
+    query_text =  "select QUESTION, ANSWER from qadatatopvar where AUTHOR = '%s' ORDER BY SCORE" %(author_name)
             
     #Get global reddit data in a dataframe                                               
 #    qa_df = psql.frame_query("select QUESTION, ANSWER from QADATA where AUTHOR = '%s'", con=mysql_cn)  %(author_name)h
